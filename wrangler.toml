@@ -2,3 +2,8 @@ name = "web"
 account_id = "2d37e0cc9f9b531dc892d9949c4762d3" # scraper.workers.dev
 type = "webpack"
 workers_dev = true
+
+[build]
+command = "webpack"
+[build.upload]
+format = "service-worker"
